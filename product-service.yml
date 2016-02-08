@@ -1,0 +1,8 @@
+configuration:
+  projectName: Product service
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: product-service
