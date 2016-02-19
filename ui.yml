@@ -4,4 +4,4 @@ configuration:
   projectName: UI
 security:
   user:
-    password: password
+    password: user
