@@ -1,7 +1,7 @@
 server:
   port: 8080
 configuration:
-  projectName: Web frontend
+  projectName: UI
 security:
   user:
     password: password
