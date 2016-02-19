@@ -2,3 +2,6 @@ server:
   port: 9000
 configuration:
   projectName: Resource server
+security:
+  user:
+    password: user
