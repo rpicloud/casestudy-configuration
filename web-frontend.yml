@@ -1,3 +1,5 @@
+configuration:
+  projectName: Web frontend
 security:
   user:
     password: password
