@@ -8,9 +8,13 @@ security:
 zuul:
  routes:
   resource:
-   path: /resource/**
-   url: http://localhost:9000/
-   stripPrefix: false
+    path: /resource/**
+    url: http://localhost:9000/
+    stripPrefix: false
+  user:
+    path: /user/**
+    url: http://localhost:9999/uaa/user
+    stripPrefix: false
 spring:
   redis:
     host: 192.168.99.100
