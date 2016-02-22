@@ -1,0 +1,14 @@
+configuration:
+  projectName: Authorization Service
+security:
+  user:
+    password: password
+  oauth2:
+    client:
+      clientId: acme
+      clientSecret: acmesecret
+      authorized-grant-types: authorization_code, refresh_token, password
+      scope: openid
+server:
+  port: 9999
+  contextPath: /uaa
