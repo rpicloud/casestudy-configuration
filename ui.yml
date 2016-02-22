@@ -5,6 +5,14 @@ configuration:
 security:
   user:
     password: user
+  oauth2:
+    client:
+      accessTokenUri: http://localhost:9999/uaa/oauth/token
+      userAuthorizationUri: http://localhost:9999/uaa/oauth/authorize
+      clientId: acme
+      clientSecret: acmesecret
+    resource:
+      userInfoUri: http://localhost:9999/uaa/user
 zuul:
  routes:
   resource:
