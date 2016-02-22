@@ -5,3 +5,9 @@ configuration:
 security:
   user:
     password: user
+zuul:
+ routes:
+  resource:
+   path: /resource/**
+   url: http://localhost:9000/
+   stripPrefix: false
