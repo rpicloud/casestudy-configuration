@@ -5,7 +5,7 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
+      host: localhost #change for production
       port: 27017
       database: user-service
 
@@ -13,5 +13,11 @@ spring:
 
 spring:
   profiles: development
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: user-service
 server:
   port: 9002
+  
