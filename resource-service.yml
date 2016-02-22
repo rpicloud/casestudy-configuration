@@ -1,2 +1,4 @@
 configuration:
   projectName: Resource service
+server:
+  port: 9000
