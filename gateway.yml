@@ -1,3 +1,5 @@
+configuration:
+  projectName: Gateway
 logging:
   level:
     org.springframework.security: DEBUG
