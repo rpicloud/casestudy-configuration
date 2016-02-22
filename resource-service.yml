@@ -2,10 +2,3 @@ configuration:
   projectName: Resource service
 server:
   port: 9000
-security:
-  sessions: NEVER
-  user:
-    password: user
-spring:
-  redis:
-    host: 192.168.99.100
