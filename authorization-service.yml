@@ -1,14 +1,15 @@
 configuration:
   projectName: Authorization Service
+server:
+  port: 9999
+  context-path: /uaa
 security:
+  sessions: if-required
   user:
     password: password
   oauth2:
     client:
-      clientId: acme
-      clientSecret: acmesecret
-      authorized-grant-types: authorization_code, refresh_token, password
+      client-id: acme
+      client-secret: acmesecret
+      authorized-grant-types: authorization_code,refresh_token,password
       scope: openid
-server:
-  port: 9999
-  contextPath: /uaa

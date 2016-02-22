@@ -4,7 +4,7 @@ configuration:
   projectName: UI
 security:
   user:
-    password: user
+    password: password
   oauth2:
     client:
       accessTokenUri: http://localhost:9999/uaa/oauth/token
@@ -22,7 +22,3 @@ zuul:
   user:
     path: /user/**
     url: http://localhost:9999/uaa/user
-    stripPrefix: false
-spring:
-  redis:
-    host: 192.168.99.100
