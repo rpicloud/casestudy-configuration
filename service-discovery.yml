@@ -2,8 +2,3 @@ server:
   port: 8761
 configuration:
   projectName: Service discovery
----
-spring:
-  profiles: development
-server:
-  port: 9761
