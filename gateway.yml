@@ -1,0 +1,17 @@
+logging:
+  level:
+    org.springframework.security: DEBUG
+security:
+  sessions: ALWAYS
+zuul:
+  routes:
+    ui:
+      url: http://localhost:8081
+    admin:
+      url: http://localhost:8082
+    resource:
+      url: http://localhost:9000
+
+spring:
+  redis:
+    host: 192.168.99.100
