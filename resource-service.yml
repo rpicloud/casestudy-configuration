@@ -4,6 +4,9 @@ server:
   port: 9000
 security:
   sessions: NEVER
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:9999/uaa/user
 spring:
   redis:
     host: 192.168.99.100
