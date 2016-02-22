@@ -11,3 +11,6 @@ zuul:
    path: /resource/**
    url: http://localhost:9000/
    stripPrefix: false
+spring:
+  redis:
+    host: 192.168.99.100
