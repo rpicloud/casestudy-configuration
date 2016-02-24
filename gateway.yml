@@ -22,6 +22,8 @@ spring:
 ---
 spring:
   profiles: development
+  redis:
+    host: localhost
 server:
   port: 8080
 logging:
@@ -37,7 +39,3 @@ zuul:
       url: http://localhost:8082
     resource:
       url: http://localhost:9000
-
-spring:
-  redis:
-    host: localhost
