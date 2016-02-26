@@ -10,15 +10,15 @@ security:
 zuul:
   routes:
     ui:
-      url: http://casestudy-ui.default:8081
+      url: http://192.168.1.21:8081
     admin:
-      url: http://casestudy-admin-ui.default:8082
+      url: http://192.168.1.21:8082
     resource:
-      url: http://casestudy-test-resource.default:9000
+      url: http://192.168.1.21:9000
 
 spring:
   redis:
-    host: redis.default
+    host: 192.168.1.21
 ---
 spring:
   profiles: development
