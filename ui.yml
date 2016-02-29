@@ -7,7 +7,7 @@ logging:
     org.springframework.security: DEBUG
 spring:
   redis:
-    host: 192.168.1.11
+    host: 192.168.1.41
 ---
 spring:
   profiles: development
