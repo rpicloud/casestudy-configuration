@@ -10,15 +10,15 @@ security:
 zuul:
   routes:
     ui:
-      url: http://192.168.1.41:8081
+      url: http://192.168.1.51:8081
     admin:
-      url: http://192.168.1.41:8082
+      url: http://192.168.1.51:8082
     resource:
-      url: http://192.168.1.41:9000
+      url: http://192.168.1.51:9000
 
 spring:
   redis:
-    host: 192.168.1.41
+    host: 192.168.1.51
 ---
 spring:
   profiles: development
